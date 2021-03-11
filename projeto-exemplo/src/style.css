@@ -1,0 +1,71 @@
+html {
+  font-size: 1rem;
+}
+
+.fonte-titulo {
+  font-family: 'Pacifico', cursive;
+}
+
+.imagem-carrossel {
+  object-fit:cover; object-position: 0 80%;
+  height: 400px;
+}
+
+.card-imagem {
+  width: 18rem;
+  object-fit:cover;
+  object-position: 0 60%;
+}
+
+.card-imagem-top {
+  height:200px;
+  object-fit:cover;
+  object-position: 0 60%;
+}
+
+.thumb-redondo {
+  border-radius:50%; 
+  width:250px; 
+  height:250px; 
+  object-fit:cover; 
+  object-position: 0 60%; 
+}
+
+.icones {
+  font-size: 2rem;
+}
+
+.texto-cor-especial {
+  color: #8D0606;
+}
+
+.borda-cor-especial {
+  border-color: #8D0606;
+}
+
+.btn-cor-especial {
+  background-color: #8D0606;
+  color: white;
+}
+
+#cor-titulo {
+  color: #8D0606;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}
